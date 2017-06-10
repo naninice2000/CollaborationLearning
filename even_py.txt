@@ -1,0 +1,9 @@
+a=(1,100)
+
+even_list=
+
+for i in a:
+	if i % 2==0:
+	even_list.append(i)
+
+print(even_list)
