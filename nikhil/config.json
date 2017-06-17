@@ -1,0 +1,26 @@
+employee = {}
+employee["nikhil"] = {
+	"name":"nikhil",
+	"id":"0001",
+	"role":"analyst",
+	"location":"st.louis",
+	"phone":"27467473"
+}
+employee["venkat"] = {
+	"name":"venkat",
+	"id":"0002",
+	"role":"analyst",
+	"location":"florida",
+	"phone":"27446758"
+}
+employee["vinod"] = {
+	"name":"vinod",
+	"id":"0003",
+	"role":"developer",
+	"location":"kansas",
+	"phone":"27467563"
+}
+import json
+s=json.dumps(employee)
+with open("C:\\Users\\Nikhil Mesineni\\Documents\\workspace\\new training\\json\\employee_confi.txt","w") as f:
+	f.write(s)
