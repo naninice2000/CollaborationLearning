@@ -25,3 +25,17 @@ pip install selenium
 How to run test script? 
 pytest <testscrit_file>
 $: pytest test_script.py
+
+
+**********************************************
+How to create test cases? 
+
+class <Test Class Name>:
+	
+	def test_<test_module_name>(self):
+		statement1 
+		statement2
+		assert <actual_result> = <expected_result>
+
+**********************************************
+
