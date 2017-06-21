@@ -1,0 +1,10 @@
+TestCaseID,TestCaseDescription,extended_url,username,password,expectedResult
+1,Verify home page title,,,,Twitter. It's what's happening.
+2,verify login button,,,,Log in to Twitter
+3,verify signup buton,,,,Join Twitter today.
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
