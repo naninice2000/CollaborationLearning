@@ -17,4 +17,19 @@ class HomePageObjectModel:
 	def get_signup_button_click(self):
 		return "//*[@id=\"page-container\"]/div/div/h1"
 
+	def get_username_input_we(self):
+		return"session[username_or_email]"
+
+	def get_passw_button_we(self):
+		return"session[password]"
+		
+
+	def get_login_loginpage(self):
+		return"//*[@id=\"page-container\"]/div/div[1]/form/div[2]/button"
+	
+	def get_invalide_credentials_message(self):
+		return"//*[@id=\"message-drawer\"]/div/div/span"
+
+#<button type="submit" class="submit EdgeButton EdgeButton--primary EdgeButtom--medium">Log in</button>
+
 
