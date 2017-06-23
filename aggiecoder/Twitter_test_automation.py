@@ -54,11 +54,11 @@ def testLoginButton():
 	
 	#finds and enters in username
 	email_we = driver.find_element_by_xpath("//*[@id=\"login-dialog-dialog\"]/div[2]/div[2]/div[2]/form/div[1]/input")
-	email_we.send_keys("samiboy18@rocketmail.com")
+	email_we.send_keys("saasjd@gmail.com")
 	
 	#finds and enters in password
 	password = driver.find_element_by_xpath("//*[@id=\"login-dialog-dialog\"]/div[2]/div[2]/div[2]/form/div[2]/input")
-	password.send_keys("Holybible2")
+	password.send_keys("Redface23")
 	
 	#logs in
 	login_button = driver.find_element_by_xpath("//*[@id=\"login-dialog-dialog\"]/div[2]/div[2]/div[2]/form/input[1]")
